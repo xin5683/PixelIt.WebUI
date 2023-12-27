@@ -30,7 +30,7 @@ Vue.use(VueSpinners);
 Vue.use(VueCookies);
 
 // Demo mode
-if (location.host.includes('.github.io') || (process.env.VUE_APP_DEMO_MODE !== undefined && process.env.VUE_APP_DEMO_MODE == 'true')) {
+if (location.host.includes('.hstar.top') || (process.env.VUE_APP_DEMO_MODE !== undefined && process.env.VUE_APP_DEMO_MODE == 'true')) {
     store.commit('SOCKET_ONMESSAGE', demoJSON);
     Vue.prototype.$demoMode = true;
 }

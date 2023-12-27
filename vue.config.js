@@ -1,6 +1,7 @@
 module.exports = {
+  filenameHashing: false,
   transpileDependencies: [
     'vuetify'
   ],
-  publicPath: process.env.NODE_ENV === 'production' ? 'https://pixelit-project.github.io/PixelIt/webui/' : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? 'https://pixelit.hstar.top/' : '/'
 }
